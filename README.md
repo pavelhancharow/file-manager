@@ -29,7 +29,6 @@ The File Manager Application is a command-line interface (CLI) tool designed to 
 1. Clone the repository:
 ```bash
 git clone https://github.com/pavelhancharow/file-manager.git
-cd file-manager
 ```
 2. Change directory:
 ```bash
@@ -66,7 +65,7 @@ FM> c
 cat   cd    compress    cp
 ```
 
-To reach a file or directory path, **you don't need** to write the path in single quotes `'path/directory'`, double quotes `"path/directory/file.txt"` or backticks `path/directory`.
+To reach a file or directory path, **you don't need** to write the path in single quotes `'path/directory'`, double quotes `"path/directory/file.txt"` or backticks.
 
 ```bash
 FM> compress src/text.txt files/text.br
